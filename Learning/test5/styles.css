@@ -1,0 +1,25 @@
+h1 {
+    font-size: 40px;
+    background-color: blue;
+    font-weight: 100;
+    color: azure;
+}
+html {
+   background-color: black;
+}
+
+.hero {
+    color: azure;
+}
+
+.color-purple {
+    color: chocolate;
+}
+
+.color-orange {
+    color: cadetblue;
+}
+
+.color-yollow {
+    color: bisque;
+}
