@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблицы</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #d6eeee;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #d9eed6;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th style="width: 70%">Название фильма</th>
+        <th>Дата выпуска</th>
+        <th>Цена за прокат</th>
+      </tr>
+      <tr>
+        <td>Форсаж</td>
+        <td>2002</td>
+        <td>200k$</td>
+      </tr>
+      <tr>
+        <td>Титаник</td>
+        <td>1996</td>
+        <td>1kk$</td>
+      </tr>
+      <tr>
+        <td>клинок рассекащий деманов</td>
+        <td>2020</td>
+        <td>500k$</td>
+      </tr>
+      <tr></tr>
+    </table>
+  </body>
+</html>
