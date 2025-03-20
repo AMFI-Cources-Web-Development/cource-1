@@ -1,3 +1,85 @@
-html {
-  font-size: 14px;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Rubik, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #282828;
+  padding: 15px 0px;
+}
+
+/* padding: 10px;
+
+> padding: 0 10px;
+
+padding: 39px 8px;
+padding: верх-низ лево-право;
+
+padding: 10px верх 10px лево 10px низ 10px право;
+
+padding: 10px 10px 10px 10px;
+padding: верх лево низ право;
+
+padding-top: 10px;
+padding-bottom: 10px;
+
+padding-left: 10px;
+padding-right: 10px; */
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+a {
+  color: #fff;
+  /* убрать низ почеркивания */
+  text-decoration: none;
+  line-height: 24px;
+  padding: 5px 20px;
+  border-radius: 24px;
+  transition: 0.2s ease-in-out;
+}
+
+.active {
+  background-color: #ffffff35;
+}
+
+a:hover {
+  background-color: #ffffff35;
+}
+
+/* a:hover + a.active {
+  background-color: transparent;
+} */
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 6px 15px;
+  font-size: 15px;
+  font-family: Rubik, sans-serif;
+  outline: none;
+  border-radius: 32px;
 }
